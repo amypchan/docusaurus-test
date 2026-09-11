@@ -28,8 +28,8 @@ workspace:
 - [OpenAI Codex](/docs/how-tos/vs-code/external-ai-tools/openai-codex)
 - [Snowflake Cortex](/docs/how-tos/vs-code/external-ai-tools/snowflake-cortex)
 
-The Snowflake server is wired into Datacoves Copilot only. Snowflake Cortex reaches your account
-directly and needs no MCP server.
+The Snowflake server is delivered to Datacoves Copilot; the other tools' MCP configs do not carry
+it. Snowflake Cortex reaches your account directly and needs no MCP server.
 
 ## Enabling MCP servers
 

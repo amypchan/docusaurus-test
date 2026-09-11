@@ -70,8 +70,8 @@ change anything.
 connection, asks your account which MCP servers it holds, and points Datacoves Copilot at the one
 named `DATACOVES`. The token is short-lived and refreshed for you.
 
-Unlike the other three servers, this one is wired into Datacoves Copilot only. Snowflake Cortex
-reaches your account directly and needs no MCP server.
+In a standard environment this entry is delivered to Datacoves Copilot; the other tools' MCP
+configs do not receive it. Snowflake Cortex reaches your account directly and needs no MCP server.
 
 The server acts as **you**, through your connection's own Snowflake role, so it sees only what that
 role is allowed to see.
